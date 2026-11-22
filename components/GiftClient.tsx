@@ -250,16 +250,6 @@ export default function GiftClient({ data }: Props) {
                   priority
                 />
               </div>
-              <div className="duo-cat-wrap">
-                <Image
-                  src="/images/cat.png"
-                  alt="Birthday Cat with Cake"
-                  width={180}
-                  height={280}
-                  className="hero-cat-img"
-                  priority
-                />
-              </div>
             </div>
 
             <div className="birthday-message-content">

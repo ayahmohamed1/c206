@@ -469,14 +469,6 @@ html, body {
   z-index: 1;
 }
 
-.duo-cat-wrap {
-  position: relative;
-  animation: floatCat 4.8s ease-in-out infinite 0.7s;
-  filter: drop-shadow(0 12px 24px rgba(0, 0, 0, 0.28));
-  z-index: 2;
-  margin-left: -12px;
-}
-
 @keyframes floatBalloon {
   0%, 100% {
     transform: translateY(0) rotate(-1deg);
@@ -486,23 +478,8 @@ html, body {
   }
 }
 
-@keyframes floatCat {
-  0%, 100% {
-    transform: translateY(0) rotate(1deg);
-  }
-  50% {
-    transform: translateY(-8px) rotate(-1.5deg);
-  }
-}
-
 .hero-balloon-img {
   max-height: clamp(120px, 22vw, 175px);
-  width: auto;
-  object-fit: contain;
-}
-
-.hero-cat-img {
-  max-height: clamp(130px, 24vw, 185px);
   width: auto;
   object-fit: contain;
 }
